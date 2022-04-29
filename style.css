@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+header{
+    height: 150px;
+    width: 100vw;
+    background-image: url('/imagens/cabeçalho.jpg');
+    text-align: center;
+}
+header input{
+    width: 400px;
+}
+nav{
+    text-align: left;
+}
+main{
+    background-color: white;
+    width: 1200px;
+    margin: auto;
+    border: 1px solid black;
+}
+.linhaum{
+    position: relative;
+    background-color: gold;
+}
+.linhaum>.um{
+    width: 400px;
+}
+.linhaum>.dois{
+    width: 400px;
+    background-color: coral;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+ 
+
+
+}
